@@ -1,0 +1,6 @@
+f1=open("copy_text.txt","r")
+text = f1.read()
+f2=open("this.txt","w")
+f2.write(text)
+f1.close()
+f2.close()

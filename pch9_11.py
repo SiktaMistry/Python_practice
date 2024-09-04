@@ -1,0 +1,8 @@
+f1 = open("filename.txt","r")
+content = f1.read()
+f2 = open("renamed_by_python.txt","w")
+f2.write(content)
+f1 = open("filename.txt","w")
+f1.write("")
+f1.close()
+f2.close()
